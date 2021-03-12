@@ -5,6 +5,7 @@ body{
 }
 
 h1{
+    height: 6%;
     margin: auto;
     width: 50%;
     padding-top: 4%;
@@ -30,6 +31,14 @@ h2{
 /*------------------------------------------------------Desktop---------------------------------------------------------------------*/
 @media (min-width: 992px){
     
+    h1{
+        height: 6%;
+        margin: auto;
+        width: 50%;
+        padding-top: 4%;
+        text-align: center;
+    }
+
     section{
         box-sizing: border-box;
         float: left;
@@ -72,6 +81,14 @@ h2{
 /*----------------------------------------------------------------------Tablet view------------------------------------------------*/
 @media (min-width: 768px) and (max-width: 991px){
 
+    h1{
+        height: 7%;
+        margin: auto;
+        width: 50%;
+        padding-top: 4%;
+        text-align: center;
+    }
+
     section{
         box-sizing: border-box;
         float: left;
@@ -113,7 +130,30 @@ h2{
 }
 /*------------------------------------------------------Mobile view---------------------------------------------------------------*/
 @media (max-width: 767px){
-    
+    body{
+        background-color: rgb(255, 255, 255);
+        margin: 0px;
+        font-family: cursive, "Lucida Handwriting", "Brush Script MT", sans-serif;
+    }
+
+    h1{
+        height: 6%;
+        margin: auto;
+        width: 50%;
+        padding-top: 4%;
+        padding-bottom: 4%;
+        text-align: center;
+    }
+
+    h2{
+        text-align: center;
+        width: 10rem;
+        border-left: 3px solid #000000;
+        border-bottom: 3px solid #000000;
+        float: right;
+        margin: 0% 0% 2% 100%;
+    }
+
     section{
         box-sizing: border-box;
         border: 4px solid #070707;
